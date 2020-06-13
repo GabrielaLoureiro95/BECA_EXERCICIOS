@@ -25,11 +25,11 @@ public class Exercicio3 {
 			Exercicio3Model exercicio3Model = new Exercicio3Model("driver" + File.separator + "chromedriver.exe",
 																"https://www.kabum.com.br/",
 																"Capa Targus Ipad Mini Rotating Versavu THZ668 Grafite",
-																"//input[@id=\'bt-busca\']",
+																"//input[@class=\"sprocura\"]",
 																"bt-busca",
 																"//a[text()='Capa Targus Ipad Mini Rotating Versavu THZ668 Grafite']",
 																"38413108",
-																"//input[@class=\'button-calcula-cep\']",
+																"//input[@class=\"input-frete cep\"]",
 																"//input[@value='Calcular Frete']",
 																 valorCep,
 																 caminhoCep);
